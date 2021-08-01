@@ -11,7 +11,7 @@ const client = new Discord.Client();
 const prefix = 'eu+' //PREFİXİNİZİ GİRİNİZ.
 
 client.on("ready", async () => {
-client.user.setActivity(`+yardım`, { type: "PLAYING" });
+client.user.setActivity(`+yardım`, { type: "WATCHING" });
   console.log("`");
 });
 
@@ -136,7 +136,7 @@ client.on('message', async message => {
 
 
 client.on('ready', () => {
-client.user.setActivity(`+ekle (Kısa Link)`, { type: 'PLAYING' })
+client.user.setActivity(`+ekle (Kısa Link)`, { type: '' })
 client.user.setStatus('dnd')
   
   //client.user.setStatus('online') -> çevrimiçi -> PARADOX DEVELOPMENT
@@ -187,7 +187,7 @@ client.login(process.env.token);
 
 
 client.on("ready", () => {
-  client.channels.cache.get("834842842564132894").join();
+  client.channels.cache.get("861662391813406730").join();
 })
 
 //Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.//Voxic tarafından kodlanmıştır.
