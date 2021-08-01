@@ -8,10 +8,10 @@ const Discord = require("discord.js")
 const fetch = require('node-fetch');
 const app = express();
 const client = new Discord.Client();
-const prefix = '+' //PREFİXİNİZİ GİRİNİZ.
+const prefix = 'eu+' //PREFİXİNİZİ GİRİNİZ.
 
 client.on("ready", async () => {
-client.user.setActivity(`+yardım `, { type: "PLAYING" });
+client.user.setActivity(`+yardım`, { type: "PLAYING" });
   console.log("`");
 });
 
@@ -113,9 +113,9 @@ client.on('message', async message => {
 `)
   .addField('**Evolve Uptime Bot - Hakkında**',`
 » **Prefixim** = **${prefix}**
-» <a:sarkrok:829682142748475413> [Destek Sunucu](-https://discord.gg/n7dD8pu9)
-» <a:sarkrok:829682142748475413> [Voxic Code Uptime Botu Ekle](https://discord.com/oauth2/authorize?client_id=724983508212121741&scope=bot&permissions=805969982)
-» <a:sarkrok:829682142748475413> Yapımcım = <@509417115439071233>
+» <a:sarkrok:829682142748475413> [Destek Sunucu](https://discord.gg/czY4HCZKY6)
+» <a:sarkrok:829682142748475413> [Evolve Uptime Botu Ekle](https://discord.com/oauth2/authorize?client_id=798692228624941117&scope=bot&permissions=805314622)
+» <a:sarkrok:829682142748475413> Yapımcım = <@778758782121541632>
 » <a:sarkrok:829682142748475413>**NOT: Botu İster Sunucusunda İster Özelden Kullanabilirsiniz Tercih Sizin**`)
 
   message.channel.send(pxd)
