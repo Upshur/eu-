@@ -46,7 +46,7 @@ client.on('message', async message => {
     .setColor('PURPLE')
     .setDescription(`
     
-    **Link Sistemde Zaten Bulunuyor. <a:elmas:829687812714266634>** 
+    **Link Sistemde Zaten Bulunuyor. <a:emoji_4:860313503032934400>** 
 
     `)
     .setTimestamp()
@@ -57,7 +57,7 @@ client.on('message', async message => {
     .setThumbnail(message.author.avatarURL)
     .setDescription(`
     
-    ** Yazdığınız Site Başarıyla Uptime Sistemimize Eklendi. <a:moremo:829312643235840020>**
+    ** Yazdığınız Site Başarıyla Uptime Sistemimize Eklendi. <a:emoji_4:860313503032934400>**
     `)
     .addField(prefix+'linkler','Komutunu Kullanarak Ekledigin Linkleri Görebilirsin!')//voxic code uptime
     .setTimestamp()
@@ -71,7 +71,7 @@ client.on('message', async message => {
   .setColor('PURPLE')
   .setDescription(`
 
-  ** Lütfen Bir Uptime Edeceğim URL'yi Girin! <a:moremo:829312643235840020>**
+  ** Lütfen Bir Uptime Edeceğim URL'yi Girin! <a:emoji_4:860313503032934400>**
 
   `)
   .setThumbnail(message.author.avatarURL)
@@ -89,7 +89,7 @@ client.on('message', async message => {
   .setThumbnail(message.author.avatarURL)
   .setDescription(`
   
-** Evolve Uptime  Şuanda  \`${db.get('Proje')}\` URL'yi Sorunsuz Bir Şekilde 7/24 Aktif Tutuyor. <a:moremo:829312643235840020>**
+** Evolve Uptime  Şuanda  \`${db.get('Proje')}\` URL'yi Sorunsuz Bir Şekilde 7/24 Aktif Tutuyor. <a:emoji_4:860313503032934400>**
 
 **  Evolve Uptime  Bu Linklerden Sadece \`${db.fetch(`Sahiplik_${message.author.id}`) || null}\` Tane Senin URl'ni Uptime ediyor!📣 **
 `)
@@ -107,16 +107,16 @@ client.on('message', async message => {
 
 `)
   .addField('** Evolve Uptime  - Komutları**',`
-» <a:elmas:829687812714266634> **+ekle (Glitch Show Linki)** = Botunuzu 7/24 Aktif Tutar.
-» <a:elmas:829687812714266634>**+linkler** = 7/24 Tuttuğum linkleri gösterir.
-» <a:elmas:829687812714266634> **+say** = Tüm Uptime edilmiş bot sayısını gösterir.
+» <a:ottoman778758782121541632:861726441795747851> **+ekle (Glitch Show Linki)** = Botunuzu 7/24 Aktif Tutar.
+» <a:ottoman778758782121541632:861726441795747851> **+linkler** = 7/24 Tuttuğum linkleri gösterir.
+» <a:ottoman778758782121541632:861726441795747851> **+say** = Tüm Uptime edilmiş bot sayısını gösterir.
 `)
   .addField('**Evolve Uptime Bot - Hakkında**',`
 » **Prefixim** = **${prefix}**
-» <a:sarkrok:829682142748475413> [Destek Sunucu](https://discord.gg/czY4HCZKY6)
-» <a:sarkrok:829682142748475413> [Evolve Uptime Botu Ekle](https://discord.com/oauth2/authorize?client_id=798692228624941117&scope=bot&permissions=805314622)
-» <a:sarkrok:829682142748475413> Yapımcım = <@778758782121541632>
-» <a:sarkrok:829682142748475413>**NOT: Botu İster Sunucusunda İster Özelden Kullanabilirsiniz Tercih Sizin**`)
+» <:ottoman778758782121541632:861724553772400640> [Destek Sunucu](https://discord.gg/czY4HCZKY6)
+» <:ottoman778758782121541632:861724553772400640> [Evolve Uptime Botu Ekle](https://discord.com/oauth2/authorize?client_id=798692228624941117&scope=bot&permissions=805314622)
+» <:ottoman778758782121541632:861724553772400640> Yapımcım = <@778758782121541632>
+» <:ottoman778758782121541632:861724553772400640>**NOT: Botu İster Sunucusunda İster Özelden Kullanabilirsiniz Tercih Sizin**`)
 
   message.channel.send(pxd)
   }
@@ -125,7 +125,7 @@ client.on('message', async message => {
     const Linkleri = db.fetch(`Projesi_${message.author.id}`)
     if (!db.get('Linkler').map(Revenge => Revenge.owner).includes(message.author.id)) return message.channel.send(new Discord.MessageEmbed().setColor('PURPLE').setDescription(`**Hiç link eklememişsin. Üzdün Beni Dostum Link Eklemek İçin \`${prefix}ekle\` yazman yeterli**`))
     message.channel.send(new Discord.MessageEmbed().setColor('PURPLE').setDescription(`**7/24 Aktfi Tuttuğum botlarınızın linklerini daha güvenli olduğunda DM üzerinden gönderdim ${message.author}**`).setThumbnail(message.author.avatarURL))
-    message.author.send(new Discord.MessageEmbed().setColor('PURPLE').setDescription(`** Normal Linklerin:** <a:elmas:829687812714266634>\n\n\``+Linkleri.join('\n')+`\``).setThumbnail(message.author.avatarURL))
+    message.author.send(new Discord.MessageEmbed().setColor('PURPLE').setDescription(`** Normal Linklerin:** <a:emoji_3:860313279041634314>\n\n\``+Linkleri.join('\n')+`\``).setThumbnail(message.author.avatarURL))
     }
 
 
