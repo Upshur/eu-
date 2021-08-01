@@ -89,9 +89,9 @@ client.on('message', async message => {
   .setThumbnail(message.author.avatarURL)
   .setDescription(`
   
-** Voxic Code Uptime  Şuanda  \`${db.get('Proje')}\` URL'yi Sorunsuz Bir Şekilde 7/24 Aktif Tutuyor. <a:moremo:829312643235840020>**
+** Evolve Uptime  Şuanda  \`${db.get('Proje')}\` URL'yi Sorunsuz Bir Şekilde 7/24 Aktif Tutuyor. <a:moremo:829312643235840020>**
 
-**  Voxic Code Uptime  Bu Linklerden Sadece \`${db.fetch(`Sahiplik_${message.author.id}`) || null}\` Tane Senin URl'ni Uptime ediyor!📣 **
+**  Evolve Uptime  Bu Linklerden Sadece \`${db.fetch(`Sahiplik_${message.author.id}`) || null}\` Tane Senin URl'ni Uptime ediyor!📣 **
 `)
   message.channel.send(say)
   }
@@ -106,12 +106,12 @@ client.on('message', async message => {
 
 
 `)
-  .addField('** Voxic Code Uptime  - Komutları**',`
+  .addField('** Evolve Uptime  - Komutları**',`
 » <a:elmas:829687812714266634> **+ekle (Glitch Show Linki)** = Botunuzu 7/24 Aktif Tutar.
 » <a:elmas:829687812714266634>**+linkler** = 7/24 Tuttuğum linkleri gösterir.
 » <a:elmas:829687812714266634> **+say** = Tüm Uptime edilmiş bot sayısını gösterir.
 `)
-  .addField('**Voxic Code Uptime Bot - Hakkında**',`
+  .addField('**Evolve Uptime Bot - Hakkında**',`
 » **Prefixim** = **${prefix}**
 » <a:sarkrok:829682142748475413> [Destek Sunucu](-https://discord.gg/n7dD8pu9)
 » <a:sarkrok:829682142748475413> [Voxic Code Uptime Botu Ekle](https://discord.com/oauth2/authorize?client_id=724983508212121741&scope=bot&permissions=805969982)
